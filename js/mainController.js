@@ -1,0 +1,1 @@
+angular.module("mainApp").controller("mainCtrl",function(n,r){r.name="Marco"}).directive("myDirective",function(){return{template:"<h2>My name is {{name}}</h2>",link:function(n,r,e){}}}).controller("secCtrl",function(n){n.name="Barney"}).controller("thrCtrl",function(n){n.name="Larry"}).controller("quadCtrl",function(n){n.name="Henry"});
